@@ -27,7 +27,7 @@ article {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
-  border-bottom: 2px solid skyblue;
+  border-bottom: 2px solid rgb(3, 250, 85);
   padding-bottom: 5px;
 }
 
@@ -44,7 +44,7 @@ article {
   border: none;
   outline: none;
   color: white;
-  background-color: skyblue;
+  background-color: rgb(209, 39, 243);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -65,13 +65,13 @@ article {
 
 .total span:nth-child(1) {
   font-size: 2rem;
-  color: skyblue;
+  color: rgb(209, 39, 243);
   font-weight: bold;
   letter-spacing: 2px;
 }
 
 .total span:nth-child(2) {
   font-size: 2rem;
-  color: green;
+  color: rgb(209, 39, 243);
   font-weight: bold;
 }

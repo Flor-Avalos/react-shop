@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import list from "../data";
 import Cards from "./Card";
-import "../styles/Amazon.css";
+import "../styles/Shop.css";
 
-const Amazon = ({ handleClick }) => {
+const Shop = ({ handleClick }) => {
   return (
     <section>
       {list.map((item) => (
@@ -13,4 +13,4 @@ const Amazon = ({ handleClick }) => {
   );
 };
 
-export default Amazon;
+export default Shop;

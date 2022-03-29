@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Amazon from "./components/Amazon";
+import Shop from "./components/Shop";
 import Navbar from "./components/NavBar";
 import Cart from "./components/Cart";
 
@@ -29,7 +29,7 @@ const App = () => {
     <React.Fragment>
       <Navbar setShow={setShow} size={cart.length} />
       {show ? (
-        <Amazon handleClick={handleClick} />
+        <Shop handleClick={handleClick} />
       ) : (
         <Cart cart={cart} setCart={setCart} handleChange={handleChange} />
       )}
